@@ -157,8 +157,6 @@ unsigned char readPatternFromEEPROM() {
     return EEDATA;         // Return the data read
 }
 
-
-
 void main() {
     TRISB = 0x00;         // Set PORTB as output
     TRISD = 0x00;         // Set PORTD as output
